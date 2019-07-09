@@ -1,0 +1,28 @@
+15:59:12.291 karate.env system property was: null 
+15:59:12.305 request:
+1 > GET https://viva-api-sit.vivaenergy.com.au/api/v1/customers/440771
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: viva-api-sit.vivaenergy.com.au
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > app_id: fb844bc5
+1 > app_key: 1cfc905099d39960274b6c2cd5a451b8
+
+15:59:13.909 response time in milliseconds: 1601.61
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Tue, 09 Jul 2019 05:59:32 GMT
+1 < ESB-CREATION-TIME: 2019-07-09T15:59:12.382+1000
+1 < ESB-INITIAL-COMPONENT: adapter-jde-customer-v1
+1 < ESB-INITIAL-OPERATION: GetCustomer
+1 < ESB-INITIAL-ROLE: Consumer
+1 < ESB-INITIAL-SYSTEM: API
+1 < ESB-INITIAL-USER: API
+1 < ESB-TRACKING-ID: ab9630c9-5190-4850-a89b-bb462cd836ca
+1 < ESB-TRANSACTION-ID: e4a00a10-bd69-4b0b-9ccc-83a61338b109
+1 < Server: openresty/1.13.6.2
+1 < Set-Cookie: BIGipServerpool_api-sit-local.vivaenergy.com.au=2569675274.65055.0000; path=/; Httponly; Secure
+1 < Transfer-Encoding: chunked
+{"address":[{"addressLine1":"61-63 KINGSTON RD","city":"HEATHERTON","country":"AU","identifiers":[{"id":"440771","type":"Public"}],"postalCode":"3202","state":"VIC","type":"*"}],"businessUnit":"100","category":"CS","electronicContacts":[{"electronicAddress":"Test.user9@vivaenergy.com.au","identifier":{"id":"440771-1000-E","type":"Public"},"type":"E"}],"identifiers":[{"id":"440771","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE P/L   FUELS A/C","partyContacts":[{"givenName":"ROSS","identifiers":[{"id":"440771-1","type":"Public"}],"mailingName":"ROSS HALLETT","name":"ROSS HALLETT","surname":"HALLETT","type":"DeliveryContact"}],"phoneContacts":[{"identifier":{"id":"440771-1000-P","type":"Public"},"phoneAreaCode":"+613","phoneNumber":"99999999","phoneNumberType":"PH"},{"identifier":{"id":"440771-2000-P","type":"Public"},"phoneAreaCode":"+613","phoneNumber":"99999999","phoneNumberType":"FAX"}],"status":"Active","type":"CustomerDeliveryLocation","creditCardSurcharge":{"code":"999","description":"NOT APPLICABLE"},"customer":{"identifiers":[{"id":"440771","type":"Public"}],"priceGroup":"VIVA"},"customerDeliveryLocation":{"allowsBackOrders":true,"allowsSubstitutes":true,"freightHandlingCode":"01","identifiers":[{"id":"695430","type":"Parent"},{"id":"440771","type":"Public"}],"isPickupBlocked":false,"isRedFlagged":false,"productRestrictionCode":{"code":"FL","description":"Fuels Ship To"},"requiresCustomerPO":false,"tankDipSource":{},"taxCode":"W1","taxExplanationCode":"V","zoneNumber":"004"},"defaultSupplyPlant":{"code":"V01","description":"Newport 1"},"excise":{"code":"DP","description":"Duty Paid"},"financialBusinessUnit":{"code":"810","description":"DEALER OWNED"},"invoicePricingGroupDate":{"code":"999","description":"NOT APPLICABLE"},"invoicedAt":{"code":"10","description":"TEMPERATURE ADJUSTMENT FACTOR"},"marketSegment":{"code":"70","description":"RESELLER"},"marketSubSegment":{"code":"S04","description":"SERVICE STATIONS"},"orderResponse":{"code":"999","description":"NOT APPLICABLE"},"pricedAt":{"code":"999","description":"NOT APPLICABLE"},"region":{"code":"30","description":"METRO"},"relationshipType":{"code":"02","description":"DEALER OWNED"},"salesGroup":{"identifiers":[{"id":"96005085","type":"Public"}],"roleType":"SG","salesGroup":"TM3"},"surchargeExceptions":{"code":"01","description":"EXEMPT FROM ALL SURCH"},"temperatureAdjustmentFactor":{"code":"10","description":"TEMPERATURE ADJUSTMENT FACTOR"}}
+

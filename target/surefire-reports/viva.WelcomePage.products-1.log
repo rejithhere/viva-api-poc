@@ -1,0 +1,38 @@
+15:59:07.162 karate.env system property was: null 
+15:59:07.739 request:
+1 > GET https://viva-api-sit.vivaenergy.com.au/api/v1/products?customerDeliveryLocationID=440771
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: viva-api-sit.vivaenergy.com.au
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > app_id: fb844bc5
+1 > app_key: 1cfc905099d39960274b6c2cd5a451b8
+
+15:59:09.991 response time in milliseconds: 2247.95
+1 < 200
+1 < Accept-Encoding: gzip,deflate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Tue, 09 Jul 2019 05:59:28 GMT
+1 < ESB-CREATION-TIME: 2019-07-09T15:59:07.929+1000
+1 < ESB-INITIAL-COMPONENT: adapter-jde-product-v1
+1 < ESB-INITIAL-OPERATION: searchProduct
+1 < ESB-INITIAL-ROLE: Producer
+1 < ESB-INITIAL-SYSTEM: API
+1 < ESB-INITIAL-USER: API
+1 < ESB-TRACKING-ID: 9b571268-e098-4ad2-b357-a563eb81ce10
+1 < ESB-TRANSACTION-ID: 6c3750b3-1d71-41fc-82de-f91c82667c6e
+1 < Host: api-sit-local.vivaenergy.com.au
+1 < Server: openresty/1.13.6.2
+1 < Set-Cookie: BIGipServerpool_api-sit-local.vivaenergy.com.au=2569675274.65055.0000; path=/; Httponly; Secure
+1 < Transfer-Encoding: chunked
+1 < User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 < X-3scale-proxy-secret-token: Shared_secret_sent_from_proxy_to_API_backend_7a06afe40f609d29
+1 < X-Real-IP: 10.34.48.6
+1 < app_id: fb844bc5
+1 < app_key: 1cfc905099d39960274b6c2cd5a451b8
+1 < breadcrumbId: ID-vtuvaina005-33943-1562189559120-81-44946
+1 < customerDeliveryLocationID: 440771
+1 < id: 440771
+{"products":[{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200004975","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"DIESEL EXTRA / BULK","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200004320","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"DIESOLINE 10 (UNMARKED) BULK","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200005340","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"SHELL PREMIUM UNLEADED 98-B","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200004240","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"UNLEADED PETROL FE(UNMKD)-B","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200001735","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"UNLEADED PETROL(UNMKD)-B","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}}]}
+

@@ -1,0 +1,28 @@
+15:59:10.261 karate.env system property was: null 
+15:59:10.270 request:
+1 > GET https://viva-api-sit.vivaenergy.com.au/api/v1/customer-hierarchy?customers=75237
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: viva-api-sit.vivaenergy.com.au
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > app_id: fb844bc5
+1 > app_key: 1cfc905099d39960274b6c2cd5a451b8
+
+15:59:12.258 response time in milliseconds: 1987.22
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Tue, 09 Jul 2019 05:59:31 GMT
+1 < ESB-CREATION-TIME: 2019-07-09T15:59:10.593+1000
+1 < ESB-INITIAL-COMPONENT: adapter-jde-customer-hierarchy-v1
+1 < ESB-INITIAL-OPERATION: searchCustomerHierarchy
+1 < ESB-INITIAL-ROLE: Producer
+1 < ESB-INITIAL-SYSTEM: API
+1 < ESB-INITIAL-USER: API
+1 < ESB-TRACKING-ID: ada49178-4604-45a1-9c6f-21e5fc11690b
+1 < ESB-TRANSACTION-ID: dfef5305-c033-4fab-afc8-eaf52c4d7302
+1 < Server: openresty/1.13.6.2
+1 < Set-Cookie: BIGipServerpool_api-sit-local.vivaenergy.com.au=2569675274.65055.0000; path=/; Httponly; Secure
+1 < Transfer-Encoding: chunked
+{"customerPartys":[{"abn":"67385993131","address":[{"addressLine1":"61-63 KINGSTON ROAD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"532734","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD","status":"Active","type":"CustomerAccountAndDeliveryLocation","children":[{"abn":"67385993131","address":[{"addressLine1":"61-63  KINGSTON ROAD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"75237","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD DR","status":"Active","type":"CustomerDeliveryLocation","customerSegmentation":{"code":"03","description":"REFUND"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}},{"abn":"67385993131","address":[{"addressLine1":"61-63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"C","identifiers":[{"id":"695430","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD  FUELS A/C","status":"Active","type":"CustomerAccount","children":[{"abn":"","address":[{"addressLine1":"61-63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"440771","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE P/L   FUELS A/C","status":"Active","type":"CustomerDeliveryLocation","customerDeliveryLocation":{"productRestrictionCode":{"code":"FL","description":"Fuels Ship To"}},"customerSegmentation":{"code":""},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02"}}],"customerSegmentation":{"code":"999","description":"NOT APPLICABLE"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}},{"abn":"67385993131","address":[{"addressLine1":"61  63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"C","identifiers":[{"id":"695431","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD  LUBES A/C","status":"Active","type":"CustomerAccount","children":[{"abn":"","address":[{"addressLine1":"61-63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"440772","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE P/L   LUBES A/CT","status":"Active","type":"CustomerDeliveryLocation","customerDeliveryLocation":{"productRestrictionCode":{"code":"LB","description":"Bulk Lubes Ship To"}},"customerSegmentation":{"code":"06","description":"MERCH. PURCH. PRICE"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02"}}],"customerSegmentation":{"code":"999","description":"NOT APPLICABLE"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}}],"customerSegmentation":{"code":"03","description":"REFUND"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}}]}
+
