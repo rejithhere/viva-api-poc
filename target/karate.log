@@ -1,71 +1,7 @@
-15:59:07.159 [main] INFO  com.intuit.karate - karate.env system property was: null 
-15:59:07.738 [main] DEBUG com.intuit.karate - request:
-1 > GET https://viva-api-sit.vivaenergy.com.au/api/v1/products?customerDeliveryLocationID=440771
-1 > Accept-Encoding: gzip,deflate
-1 > Connection: Keep-Alive
-1 > Host: viva-api-sit.vivaenergy.com.au
-1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
-1 > app_id: fb844bc5
-1 > app_key: 1cfc905099d39960274b6c2cd5a451b8
-
-15:59:09.990 [main] DEBUG com.intuit.karate - response time in milliseconds: 2247.95
-1 < 200
-1 < Accept-Encoding: gzip,deflate
-1 < Connection: keep-alive
-1 < Content-Type: application/json
-1 < Date: Tue, 09 Jul 2019 05:59:28 GMT
-1 < ESB-CREATION-TIME: 2019-07-09T15:59:07.929+1000
-1 < ESB-INITIAL-COMPONENT: adapter-jde-product-v1
-1 < ESB-INITIAL-OPERATION: searchProduct
-1 < ESB-INITIAL-ROLE: Producer
-1 < ESB-INITIAL-SYSTEM: API
-1 < ESB-INITIAL-USER: API
-1 < ESB-TRACKING-ID: 9b571268-e098-4ad2-b357-a563eb81ce10
-1 < ESB-TRANSACTION-ID: 6c3750b3-1d71-41fc-82de-f91c82667c6e
-1 < Host: api-sit-local.vivaenergy.com.au
-1 < Server: openresty/1.13.6.2
-1 < Set-Cookie: BIGipServerpool_api-sit-local.vivaenergy.com.au=2569675274.65055.0000; path=/; Httponly; Secure
-1 < Transfer-Encoding: chunked
-1 < User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
-1 < X-3scale-proxy-secret-token: Shared_secret_sent_from_proxy_to_API_backend_7a06afe40f609d29
-1 < X-Real-IP: 10.34.48.6
-1 < app_id: fb844bc5
-1 < app_key: 1cfc905099d39960274b6c2cd5a451b8
-1 < breadcrumbId: ID-vtuvaina005-33943-1562189559120-81-44946
-1 < customerDeliveryLocationID: 440771
-1 < id: 440771
-{"products":[{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200004975","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"DIESEL EXTRA / BULK","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200004320","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"DIESOLINE 10 (UNMARKED) BULK","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200005340","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"SHELL PREMIUM UNLEADED 98-B","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200004240","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"UNLEADED PETROL FE(UNMKD)-B","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200001735","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"UNLEADED PETROL(UNMKD)-B","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}}]}
-
-15:59:10.261 [main] INFO  com.intuit.karate - karate.env system property was: null 
-15:59:10.269 [main] DEBUG com.intuit.karate - request:
-1 > GET https://viva-api-sit.vivaenergy.com.au/api/v1/customer-hierarchy?customers=75237
-1 > Accept-Encoding: gzip,deflate
-1 > Connection: Keep-Alive
-1 > Host: viva-api-sit.vivaenergy.com.au
-1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
-1 > app_id: fb844bc5
-1 > app_key: 1cfc905099d39960274b6c2cd5a451b8
-
-15:59:12.257 [main] DEBUG com.intuit.karate - response time in milliseconds: 1987.22
-1 < 200
-1 < Connection: keep-alive
-1 < Content-Type: application/json
-1 < Date: Tue, 09 Jul 2019 05:59:31 GMT
-1 < ESB-CREATION-TIME: 2019-07-09T15:59:10.593+1000
-1 < ESB-INITIAL-COMPONENT: adapter-jde-customer-hierarchy-v1
-1 < ESB-INITIAL-OPERATION: searchCustomerHierarchy
-1 < ESB-INITIAL-ROLE: Producer
-1 < ESB-INITIAL-SYSTEM: API
-1 < ESB-INITIAL-USER: API
-1 < ESB-TRACKING-ID: ada49178-4604-45a1-9c6f-21e5fc11690b
-1 < ESB-TRANSACTION-ID: dfef5305-c033-4fab-afc8-eaf52c4d7302
-1 < Server: openresty/1.13.6.2
-1 < Set-Cookie: BIGipServerpool_api-sit-local.vivaenergy.com.au=2569675274.65055.0000; path=/; Httponly; Secure
-1 < Transfer-Encoding: chunked
-{"customerPartys":[{"abn":"67385993131","address":[{"addressLine1":"61-63 KINGSTON ROAD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"532734","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD","status":"Active","type":"CustomerAccountAndDeliveryLocation","children":[{"abn":"67385993131","address":[{"addressLine1":"61-63  KINGSTON ROAD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"75237","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD DR","status":"Active","type":"CustomerDeliveryLocation","customerSegmentation":{"code":"03","description":"REFUND"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}},{"abn":"67385993131","address":[{"addressLine1":"61-63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"C","identifiers":[{"id":"695430","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD  FUELS A/C","status":"Active","type":"CustomerAccount","children":[{"abn":"","address":[{"addressLine1":"61-63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"440771","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE P/L   FUELS A/C","status":"Active","type":"CustomerDeliveryLocation","customerDeliveryLocation":{"productRestrictionCode":{"code":"FL","description":"Fuels Ship To"}},"customerSegmentation":{"code":""},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02"}}],"customerSegmentation":{"code":"999","description":"NOT APPLICABLE"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}},{"abn":"67385993131","address":[{"addressLine1":"61  63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"C","identifiers":[{"id":"695431","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD  LUBES A/C","status":"Active","type":"CustomerAccount","children":[{"abn":"","address":[{"addressLine1":"61-63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"440772","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE P/L   LUBES A/CT","status":"Active","type":"CustomerDeliveryLocation","customerDeliveryLocation":{"productRestrictionCode":{"code":"LB","description":"Bulk Lubes Ship To"}},"customerSegmentation":{"code":"06","description":"MERCH. PURCH. PRICE"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02"}}],"customerSegmentation":{"code":"999","description":"NOT APPLICABLE"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}}],"customerSegmentation":{"code":"03","description":"REFUND"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}}]}
-
-15:59:12.291 [main] INFO  com.intuit.karate - karate.env system property was: null 
-15:59:12.304 [main] DEBUG com.intuit.karate - request:
+13:50:42.284 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was: demo 
+13:50:42.284 [ForkJoinPool-1-worker-2] INFO  com.intuit.karate - karate.env system property was: demo 
+13:50:42.284 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was: demo 
+13:50:42.715 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - request:
 1 > GET https://viva-api-sit.vivaenergy.com.au/api/v1/customers/440771
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -74,21 +10,88 @@
 1 > app_id: fb844bc5
 1 > app_key: 1cfc905099d39960274b6c2cd5a451b8
 
-15:59:13.908 [main] DEBUG com.intuit.karate - response time in milliseconds: 1601.61
+13:50:42.715 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > GET https://viva-api-sit.vivaenergy.com.au/api/v1/customer-hierarchy?customers=75237
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: viva-api-sit.vivaenergy.com.au
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > app_id: fb844bc5
+1 > app_key: 1cfc905099d39960274b6c2cd5a451b8
+
+13:50:42.715 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET https://viva-api-sit.vivaenergy.com.au/api/v1/products?customerDeliveryLocationID=440771
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: viva-api-sit.vivaenergy.com.au
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 > app_id: fb844bc5
+1 > app_key: 1cfc905099d39960274b6c2cd5a451b8
+
+13:50:43.163 [ForkJoinPool-1-worker-2] DEBUG com.intuit.karate - response time in milliseconds: 445.88
 1 < 200
 1 < Connection: keep-alive
 1 < Content-Type: application/json
-1 < Date: Tue, 09 Jul 2019 05:59:32 GMT
-1 < ESB-CREATION-TIME: 2019-07-09T15:59:12.382+1000
+1 < Date: Wed, 10 Jul 2019 03:51:03 GMT
+1 < ESB-CREATION-TIME: 2019-07-10T13:50:43.823+1000
 1 < ESB-INITIAL-COMPONENT: adapter-jde-customer-v1
 1 < ESB-INITIAL-OPERATION: GetCustomer
 1 < ESB-INITIAL-ROLE: Consumer
 1 < ESB-INITIAL-SYSTEM: API
 1 < ESB-INITIAL-USER: API
-1 < ESB-TRACKING-ID: ab9630c9-5190-4850-a89b-bb462cd836ca
-1 < ESB-TRANSACTION-ID: e4a00a10-bd69-4b0b-9ccc-83a61338b109
+1 < ESB-TRACKING-ID: a011a389-06d5-4415-b380-ad0d3d39198f
+1 < ESB-TRANSACTION-ID: 335e705f-ed78-47e9-a00d-404b8586ba01
 1 < Server: openresty/1.13.6.2
-1 < Set-Cookie: BIGipServerpool_api-sit-local.vivaenergy.com.au=2569675274.65055.0000; path=/; Httponly; Secure
+1 < Set-Cookie: BIGipServerpool_api-sit-local.vivaenergy.com.au=3037340426.65055.0000; path=/; Httponly; Secure
 1 < Transfer-Encoding: chunked
 {"address":[{"addressLine1":"61-63 KINGSTON RD","city":"HEATHERTON","country":"AU","identifiers":[{"id":"440771","type":"Public"}],"postalCode":"3202","state":"VIC","type":"*"}],"businessUnit":"100","category":"CS","electronicContacts":[{"electronicAddress":"Test.user9@vivaenergy.com.au","identifier":{"id":"440771-1000-E","type":"Public"},"type":"E"}],"identifiers":[{"id":"440771","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE P/L   FUELS A/C","partyContacts":[{"givenName":"ROSS","identifiers":[{"id":"440771-1","type":"Public"}],"mailingName":"ROSS HALLETT","name":"ROSS HALLETT","surname":"HALLETT","type":"DeliveryContact"}],"phoneContacts":[{"identifier":{"id":"440771-1000-P","type":"Public"},"phoneAreaCode":"+613","phoneNumber":"99999999","phoneNumberType":"PH"},{"identifier":{"id":"440771-2000-P","type":"Public"},"phoneAreaCode":"+613","phoneNumber":"99999999","phoneNumberType":"FAX"}],"status":"Active","type":"CustomerDeliveryLocation","creditCardSurcharge":{"code":"999","description":"NOT APPLICABLE"},"customer":{"identifiers":[{"id":"440771","type":"Public"}],"priceGroup":"VIVA"},"customerDeliveryLocation":{"allowsBackOrders":true,"allowsSubstitutes":true,"freightHandlingCode":"01","identifiers":[{"id":"695430","type":"Parent"},{"id":"440771","type":"Public"}],"isPickupBlocked":false,"isRedFlagged":false,"productRestrictionCode":{"code":"FL","description":"Fuels Ship To"},"requiresCustomerPO":false,"tankDipSource":{},"taxCode":"W1","taxExplanationCode":"V","zoneNumber":"004"},"defaultSupplyPlant":{"code":"V01","description":"Newport 1"},"excise":{"code":"DP","description":"Duty Paid"},"financialBusinessUnit":{"code":"810","description":"DEALER OWNED"},"invoicePricingGroupDate":{"code":"999","description":"NOT APPLICABLE"},"invoicedAt":{"code":"10","description":"TEMPERATURE ADJUSTMENT FACTOR"},"marketSegment":{"code":"70","description":"RESELLER"},"marketSubSegment":{"code":"S04","description":"SERVICE STATIONS"},"orderResponse":{"code":"999","description":"NOT APPLICABLE"},"pricedAt":{"code":"999","description":"NOT APPLICABLE"},"region":{"code":"30","description":"METRO"},"relationshipType":{"code":"02","description":"DEALER OWNED"},"salesGroup":{"identifiers":[{"id":"96005085","type":"Public"}],"roleType":"SG","salesGroup":"TM3"},"surchargeExceptions":{"code":"01","description":"EXEMPT FROM ALL SURCH"},"temperatureAdjustmentFactor":{"code":"10","description":"TEMPERATURE ADJUSTMENT FACTOR"}}
 
+13:50:43.163 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 445.04
+1 < 200
+1 < Accept-Encoding: gzip,deflate
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 10 Jul 2019 03:51:03 GMT
+1 < ESB-CREATION-TIME: 2019-07-10T13:50:43.829+1000
+1 < ESB-INITIAL-COMPONENT: adapter-jde-product-v1
+1 < ESB-INITIAL-OPERATION: searchProduct
+1 < ESB-INITIAL-ROLE: Producer
+1 < ESB-INITIAL-SYSTEM: API
+1 < ESB-INITIAL-USER: API
+1 < ESB-TRACKING-ID: c13524fc-c17f-48d8-b29f-1dd54b0f4ce7
+1 < ESB-TRANSACTION-ID: 4ef1b14f-0d7c-4734-90fe-98e033081a35
+1 < Host: api-sit-local.vivaenergy.com.au
+1 < Server: openresty/1.13.6.2
+1 < Set-Cookie: BIGipServerpool_api-sit-local.vivaenergy.com.au=3037340426.65055.0000; path=/; Httponly; Secure
+1 < Transfer-Encoding: chunked
+1 < User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_201)
+1 < X-3scale-proxy-secret-token: Shared_secret_sent_from_proxy_to_API_backend_7a06afe40f609d29
+1 < X-Real-IP: 10.34.48.6
+1 < app_id: fb844bc5
+1 < app_key: 1cfc905099d39960274b6c2cd5a451b8
+1 < breadcrumbId: ID-vtuvainb004-swglg01-local-43670-1562123802254-112-55031
+1 < customerDeliveryLocationID: 440771
+1 < id: 440771
+{"products":[{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200004975","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"DIESEL EXTRA / BULK","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200004320","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"DIESOLINE 10 (UNMARKED) BULK","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200005340","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"SHELL PREMIUM UNLEADED 98-B","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200004240","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"UNLEADED PETROL FE(UNMKD)-B","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}},{"customerPartys":[{"identifiers":[{"id":"440771","type":"Public"}],"type":"CustomerDeliveryLocation"}],"hasReplacement":false,"identifiers":[{"id":"200001735","type":"Public"}],"isBought":false,"isBulkItem":true,"isCharge":false,"isHydrocarbon":true,"isNotLaunched":false,"isPacked":false,"isSaleable":true,"isService":false,"isSpare":false,"isWithdrawalPlanned":false,"isWithdrawn":false,"name":"UNLEADED PETROL(UNMKD)-B","packCode":{"code":"176","description":"NO PACKAGING (BULK)"},"pricingUnitOfMeasure":"LitreAmbient","primaryUnitOfMeasure":"LitreAmbient","productGroup":{"code":"10","description":"Fuels"}}]}
+
+13:50:43.251 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 3: classpath:viva/WelcomePage/products.feature
+13:50:43.251 [pool-1-thread-3] INFO  com.intuit.karate.Runner - <<pass>> feature 3 of 3: classpath:viva/WelcomePage/customers.feature
+13:50:43.455 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 738.16
+1 < 200
+1 < Connection: keep-alive
+1 < Content-Type: application/json
+1 < Date: Wed, 10 Jul 2019 03:51:03 GMT
+1 < ESB-CREATION-TIME: 2019-07-10T13:50:43.833+1000
+1 < ESB-INITIAL-COMPONENT: adapter-jde-customer-hierarchy-v1
+1 < ESB-INITIAL-OPERATION: searchCustomerHierarchy
+1 < ESB-INITIAL-ROLE: Producer
+1 < ESB-INITIAL-SYSTEM: API
+1 < ESB-INITIAL-USER: API
+1 < ESB-TRACKING-ID: 41b2e186-8a2c-4c2c-87d7-13e96336ec5e
+1 < ESB-TRANSACTION-ID: 63658ae4-a72b-4bd4-b2ee-0f83f1e4da07
+1 < Server: openresty/1.13.6.2
+1 < Set-Cookie: BIGipServerpool_api-sit-local.vivaenergy.com.au=3037340426.65055.0000; path=/; Httponly; Secure
+1 < Transfer-Encoding: chunked
+{"customerPartys":[{"abn":"67385993131","address":[{"addressLine1":"61-63 KINGSTON ROAD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"532734","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD","status":"Active","type":"CustomerAccountAndDeliveryLocation","children":[{"abn":"67385993131","address":[{"addressLine1":"61-63  KINGSTON ROAD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"75237","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD DR","status":"Active","type":"CustomerDeliveryLocation","customerSegmentation":{"code":"03","description":"REFUND"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}},{"abn":"67385993131","address":[{"addressLine1":"61-63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"C","identifiers":[{"id":"695430","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD  FUELS A/C","status":"Active","type":"CustomerAccount","children":[{"abn":"","address":[{"addressLine1":"61-63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"440771","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE P/L   FUELS A/C","status":"Active","type":"CustomerDeliveryLocation","customerDeliveryLocation":{"productRestrictionCode":{"code":"FL","description":"Fuels Ship To"}},"customerSegmentation":{"code":""},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02"}}],"customerSegmentation":{"code":"999","description":"NOT APPLICABLE"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}},{"abn":"67385993131","address":[{"addressLine1":"61  63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"C","identifiers":[{"id":"695431","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE PTY LTD  LUBES A/C","status":"Active","type":"CustomerAccount","children":[{"abn":"","address":[{"addressLine1":"61-63 KINGSTON RD","addressLine2":"","city":"HEATHERTON","country":"AU","postalCode":"3202","state":"VIC"}],"businessUnit":"100","category":"CS","identifiers":[{"id":"440772","type":"Public"}],"isSuspended":false,"name":"KINGSTON GARAGE P/L   LUBES A/CT","status":"Active","type":"CustomerDeliveryLocation","customerDeliveryLocation":{"productRestrictionCode":{"code":"LB","description":"Bulk Lubes Ship To"}},"customerSegmentation":{"code":"06","description":"MERCH. PURCH. PRICE"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02"}}],"customerSegmentation":{"code":"999","description":"NOT APPLICABLE"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}}],"customerSegmentation":{"code":"03","description":"REFUND"},"marketSegment":{"code":"70","description":"RESELLER"},"relationshipType":{"code":"02","description":"DEALER OWNED"}}]}
+
+13:50:43.460 [pool-1-thread-2] INFO  com.intuit.karate.Runner - <<pass>> feature 2 of 3: classpath:viva/WelcomePage/customer-hierarchy.feature
