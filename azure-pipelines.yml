@@ -18,5 +18,5 @@ steps:
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: false
-    testResultsFiles: '**/overview-features.html'
-    goals: 'package'
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    goals: 'test'
