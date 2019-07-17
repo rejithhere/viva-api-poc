@@ -18,5 +18,5 @@ steps:
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: false
-    testResultsFiles: '**/cucumber-html-reports/overview-features.html'
+    testResultsFiles: '**/overview-features.html'
     goals: 'package'
